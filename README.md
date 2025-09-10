@@ -1,7 +1,7 @@
 # Excel Data Automation Tool
 
 ### Overview
-The Excel Data Automation Tool is a powerful desktop application built with Python and Tkinter. It simplifies the process of managing and analyzing data within Excel spreadsheets by providing a set of automated functions through a simple, intuitive graphical interface.
+This is a Python-based desktop application designed for cybersecurity professionals and analysts to streamline the tedious process of managing and analyzing vulnerability data in Excel. Forget manual data entry, filtering, and repetitive copy-pasting; this tool automates key tasks, allowing you to focus on threat remediation.
 
 ### Features
 * **Compare & Split:** Compares two Excel files (e.g., a "tracking" file and a "raw" data file) and separates new and old data into two distinct sheets in a new output file.
