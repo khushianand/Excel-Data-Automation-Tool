@@ -96,9 +96,9 @@ Use, modify, and share freely — just give credit. 🙌
 
 📧 Email: *khushianand0911@gmail.com*  
 
-🌐 GitHub: [github.com/your-username](https://github.com/khushianand)  
+🌐 GitHub: [github.com/khushianand](https://github.com/khushianand)  
 
-🔗 LinkedIn: [linkedin.com/in/your-profile](www.linkedin.com/in/khushianand091101)  
+🔗 LinkedIn: [linkedin.com/in/khushianand091101](www.linkedin.com/in/khushianand091101)  
 
 </div>
 
