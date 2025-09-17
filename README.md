@@ -1,8 +1,11 @@
 # 🛡️ Cybersec Excel Automation Suite
 
-### Tired of manual data wrangling? This is the tool for you.
+### 🚀 Tired of manual data wrangling? This is the tool for you.
 
-This **Python-based desktop application** is an all-in-one solution designed for cybersecurity professionals and analysts who are drowning in vulnerability data. It transforms fragmented, raw scan reports into a clean, actionable, and centralized source of truth. Stop wasting time on manual entry, tedious filtering, and repetitive copy-pasting, and start focusing on what really matters: **threat remediation**.
+This **Python-based desktop application** is an all-in-one solution designed for **cybersecurity professionals and analysts** drowning in vulnerability data.  
+
+It transforms fragmented, raw scan reports into a **clean, actionable, and centralized source of truth**.  
+Stop wasting time on manual entry, tedious filtering, and repetitive copy-pasting — and start focusing on what really matters: **threat remediation**. ⚡
 
 ---
 
@@ -17,31 +20,94 @@ This **Python-based desktop application** is an all-in-one solution designed for
 
 ---
 
-### 💻 Getting Started Is Easy
 
-1.  **Clone the project:**
-    ```sh
-    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
-    cd your-repository-name
-    ```
 
-2.  **Install prerequisites:**
-    ```sh
-    pip install pandas openpyxl
-    ```
+## ⚙️ Installation
 
-3.  **Run the application:**
-    ```sh
-    python main.py
-    ```
-    The intuitive GUI will launch, ready to automate your workflow.
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/your-username/your-repository-name.git
+cd your-repository-name
+```
+
+### 2️⃣ Setup Virtual Environment (Recommended)
+```sh
+python -m venv .venv
+
+# Windows
+.venv\Scripts\activate
+
+# Linux/Mac
+source .venv/bin/activate
+```
+
+### 3️⃣ Install Dependencies
+```sh
+pip install -r requirements.txt
+# or manually:
+pip install pandas openpyxl
+```
+
+### 4️⃣ Run the App
+```sh
+python main.py
+```
+
+✅ The intuitive GUI will launch 🚀
 
 ---
 
-### 🤝 Contribute & Collaborate
+## 🧭 How It Works (Step by Step)
 
-Found a bug or have an idea for a new feature? We welcome contributions! Feel free to open an issue or submit a pull request.
+1. 📂 **Select Tracking File** (master workbook)  
+2. 📂 **Select Raw Scan File** (latest Nessus/Qualys export)  
+3. 🖱️ **Choose sheets to process** (via dropdown in GUI)  
+4. ⚖️ **Run Compare** → Splits into *New, Existing, Duplicates*  
+5. 🌍 *(Optional)* **Apply Enrichment** with site/product mapping  
+6. 🎨 **Append results** to tracking file with color highlights  
 
 ---
 
-**This is more than just a script; it's a force multiplier for your cybersecurity operations.**
+## 📁 Example Output
+
+After running compare, you’ll get:
+
+- ✅ **New_Vulnerabilities**  
+- ♻️ **Existing_Vulnerabilities**  
+- 📌 **Duplicate_Entries**  
+- 🌍 **Enriched_Data**  
+- 📊 **Summary**  
+
+---
+
+## 🧾 License
+
+Feel free to open an issue or submit a pull request.
+
+Use, modify, and share freely — just give credit. 🙌
+
+---
+
+## 👨‍💻 Developer
+
+<div align="center">
+
+💡 Developed with ❤️ by **Khushi Anand**  
+
+📧 Email: *khushianand0911@gmail.com*  
+
+🌐 GitHub: [github.com/your-username](https://github.com/khushianand)  
+
+🔗 LinkedIn: [linkedin.com/in/your-profile](www.linkedin.com/in/khushianand091101)  
+
+</div>
+
+---
+
+## 🤝 Contribute & Collaborate
+
+- 🐛 Found a bug? **Open an issue**  
+- 💡 Have an idea? **Raise a feature request**  
+- 🔥 Want to improve? **Submit a PR**  
+
+Let’s make this the go-to **Cybersecurity Excel Automation Toolkit** together. 🚀
